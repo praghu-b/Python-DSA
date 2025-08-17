@@ -3,10 +3,7 @@ def count_characters(str):
     str = str.replace(' ', '').lower()
     
     for char in str:
-        if char not in characters:
-            characters[char] = 1
-        else:
-            characters[char] = characters[char] + 1
+        characters[char] = characters.get(char, 0) + 1
 
     return characters
 
