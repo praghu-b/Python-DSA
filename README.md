@@ -55,3 +55,65 @@ This layout shows:
 * My **strong grasp of lists, sets, and dictionaries**.
 * I’ve also touched **two-pointer and hashing techniques**.
 * I haven’t yet covered **stacks, queues, linked lists**, or **graph/tree structures**, which would be next.
+
+---
+
+## **What next?**
+
+### 1. **Move to Stacks and Queues**
+
+* You said earlier you weren’t ready; now it’s the perfect time.
+* Implement **stack and queue problems** in Python using **lists and `collections.deque`**.
+* Key concepts: LIFO (stack), FIFO (queue), `push/pop`, `enqueue/dequeue`.
+* Example problems:
+
+  * Valid parentheses
+  * Next greater element
+  * Sliding window max (queue-based)
+
+---
+
+### 2. **Practice Two-Pointer / Sliding Window Problems**
+
+* You’ve seen the two-pointer idea in merging lists and pair sum problems.
+* Start solving **subarray/subsequence problems** using this technique.
+* Examples:
+
+  * Maximum sum subarray of size k
+  * Two sum (already did)
+  * Trapping rainwater (medium level)
+
+---
+
+### 3. **Hashing / Frequency Counting**
+
+* You’ve done anagram, duplicates, and character counts.
+* Next, combine hashing with other structures:
+
+  * Longest substring without repeating characters
+  * Subarray with sum = k
+  * Count pairs with given difference
+
+---
+
+### 4. **Start Light DSA Concepts**
+
+* **Linked lists, stacks, queues (custom classes)**: implement from scratch.
+* This helps when interviewers ask “implement stack using linked list” or similar.
+* You don’t need full OS-level memory detail yet — focus on structure and operations.
+
+---
+
+### 5. **Time Complexity Awareness**
+
+* Start **annotating your solutions** with:
+
+  * `O(n)`, `O(n^2)`, or O(1) operations.
+* This will build intuition before moving to harder problems.
+
+---
+
+### 6. **Consistency**
+
+* Solve **1-2 problems per day** and vary difficulty: easy → medium → combination.
+* Track the **data structure used**, so you learn when to use list vs set vs dict vs deque.
