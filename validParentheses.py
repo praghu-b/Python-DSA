@@ -4,7 +4,7 @@ def is_valid(s):
 
     is_open = False
 
-    if len(s) < 0 and len(s)%2 != 0 and s[0] not in brackets:
+    if len(s) < 2 and len(s)%2 != 0 and s[0] not in brackets:
         return False
 
     for c in s:
