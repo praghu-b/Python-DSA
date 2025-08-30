@@ -84,3 +84,11 @@ Operations:
 * **List** → contiguous, sequential access, slower search
 * **Set** → hash table, fast lookup, unordered, collisions handled inside buckets
 * **Dict** → hash table with key-value pairs, fast key lookup, collisions handled
+
+---
+
+### Quick Tip
+
+- **1 call** per function → linear recursion → **O(n)**
+- **Multiple calls** per function → tree/exponential recursion → **O(2^n) or O(k^n)**
+- **Divide input** each call → divide & conquer → **O(log n)**
