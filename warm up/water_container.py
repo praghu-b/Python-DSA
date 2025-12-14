@@ -1,6 +1,6 @@
 # Find the container with maximum water, where the difference between two indices is distance.
 
-def max_water(nums):
+def max_water_bf(nums):
     max_area = 0
     
     for i in range(len(nums)):
@@ -13,6 +13,25 @@ def max_water(nums):
                 
     return max_area
             
+def max_water_opt(nums):
+    max_area = 0
+    i = 0
+    j = len(nums) - 1
+    
+    while i < j:
+        distance = j - i
+        area = min(nums[i], nums[j]) * distance
+        
+        if area > max_area:
+            max_area = area
+            
+        if nums[i] > nums[j]:
+            j -= 1
+        else:
+            i += 1
+            
+    return max_area
 
-nums = [1,8,6,2,5,4,8,3,7]
-print(max_water(nums))
+
+nums = [2,3,10,5,7,8,9]
+print(max_water_opt(nums))
